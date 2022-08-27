@@ -12,11 +12,12 @@
     <header class="header">
 
         <nav class="navbar">
-            <span class="icono">Estefani</span>
+            <a href="Index.html"><img class="icono" src="logoipsum-226.svg"></a> 
             <ul class="menuLista">
-                <li class="lista"><a class="link" href="#">menu 1</a></li>
-                <li class="lista"><a class="link" href="#">menu 2</a></li>
-                <li class="lista"><a class="link" href="#">menu 3</a></li>
+                <li class="lista"><a class="link" href="Index.html">Inicio</a></li>
+                <li class="lista"><a class="link" href="Paginas\Contacto.html">Contacto</a></li>
+                <li class="lista"><a class="link" href="Paginas\Tienda.html">Tienda</a></li>
+                <li class="lista"><a class="link" href="../Hola/Inicio.html">Inicio 2</a></li>
             </ul>
         </nav>
 
@@ -25,7 +26,10 @@
        <div class="columnas izq"> 
            <h1>¿Quieres <span class="palabraVender">vender</span> algún <span class="palabraVender">equipo o componente</span> que ya no uses?</h1>
            <p class="parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad debitis soluta molestias veritatis repudiandae. Ratione distinctio, libero, sint molestias dolorem quas cum aperiam inventore necessitatibus labore corrupti natus iusto dolorum.</p>
-       </div>
+        
+        <a href="#table" class="vermas">Ver más <i class="fa-solid fa-arrow-right-from-bracket iconovermas"></i></a>
+               
+        </div>
        <div class="columnas der">
            <img class="imagen1" src="WhatsApp Image 2022-07-21 at 12.45.06 PM (3).jpeg" alt="taller">
        </div>
@@ -127,7 +131,7 @@
 
     </section>
 
-    <section class="tabla">
+    <section class="tabla" id="table">
         <h2 class="tituloForm">TABLA</h2>
         <div class="tabla">
             <table>
@@ -138,14 +142,43 @@
                     <th>Total</th>
                     <th>Pagar</th>
                 </tr></thead>
-                <tr>
+                <tr class="truno">
                     <td>Camisa</td>
+                    <td>2</td>
+                    <td>1000</td>
+                    <td>2000</td>
+                    <td><button>Pagar</button></td>
+                </tr>
+                <tr class="trdos">
+                    <td>Pantalon</td>
+                    <td>1</td>
+                    <td>2000</td>
+                    <td>2000</td>
+                    <td><button>Pagar</button></td>
+                </tr>
+                <tr class="truno">
+                    <td>Chaqueta</td>
+                    <td>1</td>
+                    <td>5000</td>
+                    <td>5000</td>
+                    <td><button>Pagar</button></td>
+                </tr>
+                <tr class="trdos">
+                    <td>Zapatos</td>
+                    <td>1</td>
+                    <td>10000</td>
+                    <td>10000</td>
+                    <td><button>Pagar</button></td>
                 </tr>
             </table>
         </div>
+
     </section>
+
     <footer class="footer">
         <p>copyright 2022 todo los derechos reservados</p>
     </footer>
+
+    <script src="https://kit.fontawesome.com/87bd51f57b.js" crossorigin="anonymous"></script>
 </body>
 </html>
